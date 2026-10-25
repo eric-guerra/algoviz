@@ -29,6 +29,16 @@ ui/     Player, SortPanel, GraphPanel, Controls
 
 ## Run
 
+### Requirements
+
+- JDK 17 or newer to compile and run the app.
+- Apache Maven installed and available as `mvn` on your `PATH`.
+- A graphical desktop session to display the Swing UI.
+
+Check `java -version` and `mvn -version` before building. Maven must also use JDK 17 or newer.
+
+Run these commands from the repository root (the directory containing `pom.xml`):
+
 ```bash
 mvn package
 java -jar target/algoviz-1.0.0.jar
